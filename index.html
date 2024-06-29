@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="src/style-home.css" />
 
-  <link rel="icon" href="IMAGES/nss_nsut_delhi_logo.png.png" />
+  <link rel="icon" href="IMAGES/NSSLOGO.png" />
   <script src="https://kit.fontawesome.com/589ca3ab0c.js" crossorigin="anonymous">
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -19,16 +19,16 @@
 <body class="">
  
   <!-- ------------------------NAVBAR------------------------- -->
-  <nav class="navbar sticky top-0 left-0 right-0 z-40 ">
+  <nav class="navbar fixed top-0 left-0 right-0 z-40 ">
     <div>
       <div class="backdrop-blur-3xl md:flex md:flex-row md:w-full md:justify-between">
         <div>
-          <div class="py-3 p-4 flex w-full justify-between md:px-20">
+          <div class="py-3 p-4 md:p-0 md:py-3 flex w-full justify-between md:px-20">
             <!-- logo -->
             <div class="logo">
               <a href="index.html" class="inline-flex justify-between">
                 <img class="size-12" src="IMAGES/NSSLOGO.png" alt="" />
-                <p class="text-white px-2 flex place-items-center ">
+                <p class="text-black px-2 flex place-items-center ">
                   National Service Scheme | NSUT
                 </p>
               </a>
@@ -47,19 +47,19 @@
         <div class="menu py-3 px-20 hidden md:flex md:items-center" id="menu-list-items">
           <ul class="flex flex-col md:flex-row">
             <li
-              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline hover:text-white  md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              class="navbar-icon font-semibold text-gray-800 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline hover:text-black  md:rounded-lg md:py-1 md:my-3 md:mx-1">
               <a href="index.html">Home</a>
             </li>
             <li
-              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-white md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              class="navbar-icon font-semibold text-gray-800 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-black md:rounded-lg md:py-1 md:my-3 md:mx-1">
               <a href="">About Us</a>
             </li>
             <li
-              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-white md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              class="navbar-icon font-semibold text-gray-800 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-black md:rounded-lg md:py-1 md:my-3 md:mx-1">
               <a href="">Gallery</a>
             </li>
             <li
-              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-white md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              class="navbar-icon font-semibold text-gray-800 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-black md:rounded-lg md:py-1 md:my-3 md:mx-1">
               <a href="">Dashboard</a>
             </li>
           </ul>
@@ -115,7 +115,7 @@
             d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
           </path>
         </svg>
-        <p class="leading-relaxed text-3xl text-gray-100">The Woods are lovely dark and deep,
+        <p class="leading-relaxed text-3xl text-gray-100 italic">The Woods are lovely dark and deep,
           But I have promises to keep,
           and miles to go before I sleep,
           and miles to go before is sleep.....</p>
@@ -216,7 +216,7 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
         <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-50">Enter your own review here <i class="fa-solid fa-heart-circle-plus"></i></h1>
-        <a href="https://testimonial.to/nss-netaji-subhash-university-of-technology" class="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg mt-10 sm:mt-0">Enter Review</a>
+        <button class="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg mt-10 sm:mt-0">Enter Review</button>
       </div>
     </div>
   </section>
@@ -278,12 +278,13 @@
 
 
   <!----------------------------FOOTER---------------------------->
-  <footer class="text-white p-6 py-4 rounded-lg bottom-0 left-0 right-0">
+  <footer class="text-white p-6 py-4 rounded-lg bottom-0 left-0 right-0 md:flex-col">
+    <div class="md:flex md:flex-row md:justify-between md:items-center ">
     <div class="text-white py-2">
-      <a href="nsut.ac.in">
-        <img class="w-90" src="IMAGES/logo_nsut_0_0_0_0.png" alt="" />
+      <a href="">
+        <img class="w-90 md:w-80 " src="IMAGES/logo_nsut_0_0_0_0.png" alt="" />
       </a>
-      <a href="https://www.google.com/maps/place/Netaji+Subhas+University+of+Technology/@28.610881,77.038259,18z/data=!4m16!1m9!3m8!1s0x390d05dd375e5a13:0x108adaa3abe4bd07!2sNetaji+Subhas+University+of+Technology!8m2!3d28.6109708!4d77.0379477!9m1!1b1!16zL20vMDRybHFy!3m5!1s0x390d05dd375e5a13:0x108adaa3abe4bd07!8m2!3d28.6109708!4d77.0379477!16zL20vMDRybHFy?hl=en-US&entry=ttu" class="hover:text-indigo-950">
+      <a href="" class="hover:text-orange-500">
         <p class="py-8 px-3">
           <i class="fa-solid fa-location-dot"></i> NSS Office, Student
           Activity Centre,<br />
@@ -291,27 +292,28 @@
           Dwarka, New Delhi - 110078 <br />
         </p>
       </a>
-      <a href="" class="font-bold text-white px-3 py-5 animate-pulse anima">
+      <a href="/models/contact-us-temp.html" class="font-bold text-white px-3 py-5 animate-pulse hover:text-orange-500">
         Contact Us
         <i class="fa-solid fa-up-right-from-square fa-beat-fade"></i>
       </a>
     </div>
-
+  <div>
     <h3 class="text-xl font-semibold py-4 px-3">MAGAZINES</h3>
     <div class="">
-      <ul>
+      <ul class="" style="list-style-type:circle;">
         <li class="py-1">
-          <a class="hover:text-indigo-950"
+          <a class="hover:text-orange-500"
             href="https://drive.google.com/file/d/1qNNhiyR9iDIHrRVu9Y8oPF9058Clezjp/view?usp=sharing">NSS Magazine
             Edition 2</a>
         </li>
         <li class="py-1">
-          <a class="hover:text-indigo-950"
+          <a class="hover:text-orange-500"
             href="https://drive.google.com/file/d/1zreQdiGaG-aA0BGDeLANNmZvWD3pLKPW/view?usp=sharing">NSS Magazine
             Edition 1</a>
         </li>
       </ul>
     </div>
+  </div>
     <div class="py-4 px-3">
       <h3 class="text-xl font-semibold">
         We are Social <i class="fa-regular fa-face-smile-wink"></i>
@@ -319,29 +321,32 @@
       <div class="px-3 py-1">Catch us on</div>
       <div class="text-4xl py-3 inline-flex justify-around px-3 w-full">
         <div class="cursor-pointer">
-          <a href="https://www.instagram.com/nssnsutcell/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
         <div class="cursor-pointer">
-          <a href="https://twitter.com/nssnsutcell?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
         <div class="cursor-pointer">
-          <a href="https://www.youtube.com/channel/UCZRtEXP1DKBS4RHyxkXlRuQ"><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="cursor-pointer">
-          <a href="https://in.linkedin.com/company/nss-nsut-delhi"><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="cursor-pointer">
-          <a href="https://www.facebook.com/nsutofficial/"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
         </div>
       </div>
     </div>
-
-    <hr class="hr-footer-copyright" />
+  </div>
+  <div>
+      <hr class="hr-footer-copyright" />
     <p class="copyright-footer text-center py-4">
       NSS NSUT CELL &copy; 2024 <br />
       All Rights Reserved <br />
       Made with <i class="fa-regular fa-heart"></i>
     </p>
+  </div>
+    
   </footer>
 
 

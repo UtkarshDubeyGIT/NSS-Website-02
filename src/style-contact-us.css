@@ -565,58 +565,6 @@ body{
   background-color: #ffffff;
 }
 
-#menu-bar-open{
-  color: black;
-}
-
-#menu-bar-close{
-  color:black;
-}
-
-/* /* -----------------------------HERO----------------------------------  */
-
-/* -----------------------------QUOTE HOME PAGE-------------------------- */
-
-.quote{
-  background-color: #0c4e8c;
-}
-
-/* --------------------------------testimonials----------------------------- */
-
-.testimonials{
-  background-color: #0c4e8c;
-}
-
-/*---------------------------- footer-------------------------------- */
-
-footer{
-  background-color: #0c4e8c;
-}
-
-.fa-facebook:hover{
-  color: #1877F2;
-}
-
-.fa-instagram:hover{
-  color:    #ee2a7b;
-}
-
-.fa-linkedin:hover{
-  color:#0072b1;
-}
-
-.fa-youtube:hover{
-  color: #ff0000;
-}
-
-.fa-square-x-twitter{
-  color: white;
-}
-
-.fa-square-x-twitter:hover{
-  color: #1DA1F2;
-}
-
 .container {
   width: 100%;
 }
