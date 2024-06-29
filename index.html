@@ -1,0 +1,354 @@
+<!-- npx tailwindcss -i ./style-home.css -o ./src/style-home.css --watch -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NSS-NSUT</title>
+
+  <link rel="stylesheet" href="src/style-home.css" />
+
+  <link rel="icon" href="IMAGES/NSSLOGO.png" />
+  <script src="https://kit.fontawesome.com/589ca3ab0c.js" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="">
+ 
+  <!-- ------------------------NAVBAR------------------------- -->
+  <nav class="navbar sticky top-0 left-0 right-0 z-40 ">
+    <div>
+      <div class="backdrop-blur-3xl md:flex md:flex-row md:w-full md:justify-between">
+        <div>
+          <div class="py-3 p-4 flex w-full justify-between md:px-20">
+            <!-- logo -->
+            <div class="logo">
+              <a href="index.html" class="inline-flex justify-between">
+                <img class="size-12" src="IMAGES/NSSLOGO.png" alt="" />
+                <p class="text-white px-2 flex place-items-center ">
+                  National Service Scheme | NSUT
+                </p>
+              </a>
+            </div>
+
+            <!-- menu bar open -->
+            <div class="cursor-pointer text-4xl px-2 md:hidden" id="menu-bar-open" onclick="toggleMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- menu bar close -->
+            <div class="text-4xl px-2 hidden md:hidden" id="menu-bar-close" onclick="toggleMenu()">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="menu py-3 px-20 hidden md:flex md:items-center" id="menu-list-items">
+          <ul class="flex flex-col md:flex-row">
+            <li
+              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline hover:text-white  md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-white md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              <a href="">About Us</a>
+            </li>
+            <li
+              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-white md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              <a href="">Gallery</a>
+            </li>
+            <li
+              class="navbar-icon text-gray-300 justify-center flex text-xl p-3 rounded-md delay-100 ease-in-out transition hover:underline  hover:text-white md:rounded-lg md:py-1 md:my-3 md:mx-1">
+              <a href="">Dashboard</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="w-11/12 mx-auto navbar-break" />
+  </nav>
+
+
+
+
+
+  <!-- ----------------------HERO-SECTION---------------------- -->
+
+  <div class="min-h-screen flex items-center justify-center ">
+    <div class="relative w-full ">
+      <div class="max-w-lg"><div
+        class=" absolute top-0 -left-4 w-72 h-72  md:left-1/2 md:top-10 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob1 md:animate-blob11" style="background-color: #11c4d4;">
+      </div>
+      <div
+        class="  absolute top-0 right-4 w-72 h-72  md:right-1/2  rounded-full mix-blend-multiply filter blur-2xl  opacity-70 animate-blob2  md:animate-blob22" style="background-color: #ccf1cd;">
+      </div>
+      <div
+        class=" absolute -bottom-8 left-16 w-72 h-72  md:left-1/2 md:top-20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob3 md:animate-blob33" style="background-color: #4fe7af;">
+      </div>
+      <div
+        class=" invisible md:visible absolute -bottom-8 left-20 w-72 h-72  md:left-1/2  md:top-30 rounded-full mix-blend-multiply filter blur-3xl opacity-70 md:animate-blob44" style="background-color: #0c81e4;">
+      </div>
+      <div
+        class=" invisible md:visible absolute -bottom-8 left-20 w-72 h-72  md:right-1/2 rounded-full mix-blend-multiply filter blur-3xl opacity-70 md:animate-blob55" style="background-color: #0c4e8c;">
+      </div></div>
+      
+      <div>
+        <div class=" text-4xl md:text-6xl py-6 font-bold text-center md:py-8">NATIONAL SERVICE SCHEME</div>
+      <div class="text-2xl md:text-5xl py-4 font-semibold text-center md:py-6">Netaji Subhash University Of Technology (MAIN CAMPUS)</div>
+      <div class="text-2xl md:text-2xl py-2 text-center md:py-4">Dwarka, New Delhi</div>
+    </div>
+      
+    </div>
+  </div>
+
+
+
+
+  <!-- ---------------------------QUOTE ----------------------------- -->
+  <section class="text-gray-600 body-font quote">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-200 mb-8"
+          viewBox="0 0 975.036 975.036">
+          <path
+            d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+          </path>
+        </svg>
+        <p class="leading-relaxed text-3xl text-gray-100">The Woods are lovely dark and deep,
+          But I have promises to keep,
+          and miles to go before I sleep,
+          and miles to go before is sleep.....</p>
+        <span class="inline-block h-1 w-10 rounded bg-indigo-200 mt-8 mb-6"></span>
+        <h2 class="text-gray-200 font-medium title-font tracking-wider text-lg">Netaji Subhash Chandra Bose</h2>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- -------------------------------About us HOMEPAGE------------------------------------------- -->
+  <section class="py-40 flex items-center flex-col md:px-10 ">
+    <div class="flex items-center text-center text-7xl font-bold md:px-40"> About Us</div>
+
+    <div class=" relative flex flex-col justify-center items-center m-5 md:px-8  ">
+      <!-- <div class="md:flex md:flex-row py-5"> -->
+
+      <div class="relative md:flex md:flex-row py-5">
+        <div class=" flex justify-center items-center md:flex-none "><img src="IMAGES/what-we-do.png" alt=""
+            class="w-72 md:w-96 rounded-2xl shadow-xl"></div>
+        <div class="flex flex-col items-center justify-center">
+          <div class="text-3xl text-blue-950 font-bold md:py-12 py-4">WHAT WE DO</div>
+          <div class="text-blue-950 text-lg text-center px-6 py-3">
+            <i class="fa-solid fa-quote-left" style="font-size:x-large;"></i> Over the years NSS NSUT Cell has executed
+            initiatives ranging from Camps, Drives to Community welfare projects.
+            NSS NSUT Cell has implemented projects to work in a variety of domains involving Education, Mental health,
+            and Skills with an exemplary work record which, ipso-facto, has been awarded appreciation over the years.
+            It gives volunteers immense pride to implement their skills whether on the technical front or the design and
+            witness them making an impact in the community.
+            NSS NSUT Cell strives to upkeep the legacy of over 52 years rendering the service to the nation, living up
+            to the motto-
+            "Not me But you." <i class="fa-solid fa-quote-right" style="font-size:x-large;"></i>
+          </div>
+          <div class="md:flex-none">
+            <div class="flex items-center justify-center text-center py-2 md:py-3 md:flex-none ">
+              <a href="#" class="hover:text-sky-800 text-sky-400 hover:underline p-2.5 cursor-pointer">Check Out more <i
+                  class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="flex flex-col justify-center items-center m-5 md:px-16 ">
+      <div class="md:flex md:flex-row py-5">
+        <div class="p-4 flex justify-center items-center md:flex-none md:order-2"><img src="IMAGES/mission.png"
+            alt="" class="w-72 md:w-96 rounded-xl"></div>
+        <div class="flex flex-col items-center justify-center md:order-1">
+          <div class="text-3xl text-blue-950 font-bold md:py-12 py-4">OUR VISION</div>
+          <div class="text-blue-950 text-lg text-center px-6 py-3">
+            <i class="fa-solid fa-quote-left" style="font-size:x-large;"></i> NSS NSUT Cell is a team of highly
+            motivated young
+            individuals ready to devote all it's resources to meet
+            the social development goals of India in different
+            aspects. NSS has been shaping young leaders,
+            carving their personalities with various ventures
+            which provide them exposure to the community and
+            the opportunity to work for its betterment in
+            domains such as education and healthcare. These
+            projects develop the all-round personality of a
+            volunteer. They get the opportunity to work in
+            content writing, graphic designing, acting and much
+            more apart from delivering social service on ground
+            in villages. The volunteers also feel the satisfaction
+            of working for a good cause and making a positive
+            impact on the world,reflecting our motto<i class="fa-solid fa-quote-right" style="font-size:x-large;"></i>
+          </div>
+          <div class="md:flex-none">
+            <div class="flex items-center justify-center text-center py-2 md:py-3 md:flex-none ">
+              <a href="#" class="text-sky-400  hover:underline hover:text-sky-800 p-2.5 cursor-pointer">Check Out more <i
+                  class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+<!-- ------------------------------------TESTIMONIALS-------------------------------------- -->
+<section class="testimonials px-6 p-24 flex justify-center items-center flex-col">
+  <div class="text-3xl text-white md:text-6xl text-center pb-10 font-bold pt-7">TESTIMONIALS</div>
+  <div class="text-lg text-gray-100 md:text-3xl text-center pb-10  pt-7"><p>See What people have to say ...</p></div>
+  <hr class="w-10/12 py-5">
+  <iframe height="500px" id='testimonialto-nss-netaji-subhash-university-of-technology-tag-all-light-animated' src="https://embed-v2.testimonial.to/w/nss-netaji-subhash-university-of-technology?animated=on&theme=light&shadowColor=0c4e8c&speed=1&tag=all&disableHoverPause" frameborder="0" scrolling="no" width="100%"></iframe>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+        <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-50">Enter your own review here <i class="fa-solid fa-heart-circle-plus"></i></h1>
+        <button class="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg mt-10 sm:mt-0">Enter Review</button>
+      </div>
+    </div>
+  </section>
+</section>
+
+  <!--- --------------------------------APP Links  ----------------------------------------------- -->
+  <section class="text-gray-600 body-font">
+
+    <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+      <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">GET THE APP NOW !</h2>
+        <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">National Service Scheme NSUT</h1>
+      </div>
+      <!-- phone mock up -->
+      <div>
+        <div
+          class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+          <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+          <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+          <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+          <div class="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+          <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
+            <img src="IMAGES/nss-mob-signin.png" class="dark:hidden w-[272px] h-[572px]" alt="">
+            <img src="IMAGES/nss-mob-signin.png" class="hidden dark:block w-[272px] h-[572px]" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4 py-4">
+        <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+            <path
+              d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+            </path>
+          </svg>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+            <span class="title-font font-medium">Google Play</span>
+          </span>
+        </button>
+        <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+            <path
+              d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z">
+            </path>
+            <path
+              d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z">
+            </path>
+          </svg>
+          <span class="ml-4 flex items-start flex-col leading-none">
+            <span class="text-xs text-gray-600 mb-1">Download on the</span>
+            <span class="title-font font-medium">App Store</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!----------------------------FOOTER---------------------------->
+  <footer class="text-white p-6 py-4 rounded-lg bottom-0 left-0 right-0">
+    <div class="text-white py-2">
+      <a href="">
+        <img class="w-90" src="IMAGES/logo_nsut_0_0_0_0.png" alt="" />
+      </a>
+      <a href="" class="hover:text-indigo-950">
+        <p class="py-8 px-3">
+          <i class="fa-solid fa-location-dot"></i> NSS Office, Student
+          Activity Centre,<br />
+          Azad Hind Fauj Marg Sector - 3 ,<br />
+          Dwarka, New Delhi - 110078 <br />
+        </p>
+      </a>
+      <a href="" class="font-bold text-white px-3 py-5 animate-pulse anima">
+        Contact Us
+        <i class="fa-solid fa-up-right-from-square fa-beat-fade"></i>
+      </a>
+    </div>
+
+    <h3 class="text-xl font-semibold py-4 px-3">MAGAZINES</h3>
+    <div class="">
+      <ul>
+        <li class="py-1">
+          <a class="hover:text-indigo-950"
+            href="https://drive.google.com/file/d/1qNNhiyR9iDIHrRVu9Y8oPF9058Clezjp/view?usp=sharing">NSS Magazine
+            Edition 2</a>
+        </li>
+        <li class="py-1">
+          <a class="hover:text-indigo-950"
+            href="https://drive.google.com/file/d/1zreQdiGaG-aA0BGDeLANNmZvWD3pLKPW/view?usp=sharing">NSS Magazine
+            Edition 1</a>
+        </li>
+      </ul>
+    </div>
+    <div class="py-4 px-3">
+      <h3 class="text-xl font-semibold">
+        We are Social <i class="fa-regular fa-face-smile-wink"></i>
+      </h3>
+      <div class="px-3 py-1">Catch us on</div>
+      <div class="text-4xl py-3 inline-flex justify-around px-3 w-full">
+        <div class="cursor-pointer">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="cursor-pointer">
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div class="cursor-pointer">
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="cursor-pointer">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="cursor-pointer">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr-footer-copyright" />
+    <p class="copyright-footer text-center py-4">
+      NSS NSUT CELL &copy; 2024 <br />
+      All Rights Reserved <br />
+      Made with <i class="fa-regular fa-heart"></i>
+    </p>
+  </footer>
+
+
+
+
+  <!-- ----------------------SCRIPT TAGS---- -------------------->
+  <script src="src/script-home.js"></script>
+</body>
+
+</html>
