@@ -776,6 +776,10 @@ footer{
   margin-top: 2.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -786,6 +790,10 @@ footer{
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .inline-block {
@@ -865,6 +873,10 @@ footer{
   width: 91.666667%;
 }
 
+.w-36 {
+  width: 9rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -895,6 +907,14 @@ footer{
 
 .w-full {
   width: 100%;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .max-w-lg {
@@ -1048,6 +1068,18 @@ footer{
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1136,6 +1168,11 @@ footer{
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -1154,6 +1191,14 @@ footer{
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-10 {
@@ -1197,6 +1242,11 @@ footer{
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5 {
@@ -1271,6 +1321,10 @@ footer{
   padding-right: 0px;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1281,6 +1335,10 @@ footer{
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -1556,6 +1614,10 @@ footer{
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
+.focus\:bg-transparent:focus {
+  background-color: transparent;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1803,6 +1865,10 @@ footer{
     flex-direction: column;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:items-center {
     align-items: center;
   }
@@ -1832,6 +1898,11 @@ footer{
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .md\:px-40 {

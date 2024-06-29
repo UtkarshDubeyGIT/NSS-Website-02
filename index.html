@@ -19,9 +19,9 @@
 <body class="">
  
   <!-- ------------------------NAVBAR------------------------- -->
-  <nav class="navbar fixed top-0 left-0 right-0 z-40 ">
+  <nav class="navbar fixed top-0 left-0 right-0 z-40 " id="menu-background-1">
     <div>
-      <div class="backdrop-blur-3xl md:flex md:flex-row md:w-full md:justify-between">
+      <div class="backdrop-blur-3xl md:flex md:flex-row md:w-full md:justify-between " id="menu-background-2">
         <div>
           <div class="py-3 p-4 md:p-0 md:py-3 flex w-full justify-between md:px-20">
             <!-- logo -->
@@ -279,7 +279,7 @@
 
   <!----------------------------FOOTER---------------------------->
   <footer class="text-white p-6 py-4 rounded-lg bottom-0 left-0 right-0 md:flex-col">
-    <div class="md:flex md:flex-row md:justify-between md:items-center ">
+    <div class="md:flex md:flex-row md:justify-between md:items-start ">
     <div class="text-white py-2">
       <a href="">
         <img class="w-90 md:w-80 " src="IMAGES/logo_nsut_0_0_0_0.png" alt="" />
@@ -298,7 +298,7 @@
       </a>
     </div>
   <div>
-    <h3 class="text-xl font-semibold py-4 px-3">MAGAZINES</h3>
+    <h3 class="text-2xl font-semibold py-4 px-3">Magazines</h3>
     <div class="">
       <ul class="" style="list-style-type:circle;">
         <li class="py-1">
@@ -313,32 +313,50 @@
         </li>
       </ul>
     </div>
+    <section class="body-font py-3">
+      <div class="container flex flex-col">
+        <div class="flex flex-col">
+          <h1 class="text-2xl font-semibold py-4 px-3">Newsletter</h1>
+          <p class="leading-relaxed text-base text-gray-100 py-1">Subscribe to our newsletter to get the latest updates on your mail.</p>
+        </div>
+        <div class="flex flex-col space-y-3 pt-2">
+          <div class="">
+            
+            <input type="text" id="full-name" name="full-name" placeholder="Full Name" class="p-1 px-4 bg-opacity-50 rounded-lg border bg-gray-600 focus:border-blue-500 focus:bg-transparent  focus:ring-blue-200 text-md outline-none text-white  transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="">
+            <input type="email" id="email" name="email" placeholder="Email" class="p-1 px-4 bg-opacity-50 rounded-lg border bg-gray-600 focus:border-blue-500 focus:bg-transparent  focus:ring-blue-200 text-md outline-none text-white  transition-colors duration-200 ease-in-out">
+          </div>
+          <button class="text-white bg-blue-500 border-0 focus:outline-none hover:bg-blue-600 rounded text-lg w-32">Subscribe</button>
+        </div>
+      </div>
+    </section>
   </div>
     <div class="py-4 px-3">
-      <h3 class="text-xl font-semibold">
+      <h3 class="text-2xl font-semibold">
         We are Social <i class="fa-regular fa-face-smile-wink"></i>
       </h3>
       <div class="px-3 py-1">Catch us on</div>
       <div class="text-4xl py-3 inline-flex justify-around px-3 w-full">
-        <div class="cursor-pointer">
+        <div class="cursor-pointer md:px-3">
           <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <div class="cursor-pointer">
+        <div class="cursor-pointer md:px-3">
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
         </div>
-        <div class="cursor-pointer">
+        <div class="cursor-pointer md:px-3">
           <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <div class="cursor-pointer">
+        <div class="cursor-pointer md:px-3">
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <div class="cursor-pointer">
+        <div class="cursor-pointer md:px-3">
           <a href=""><i class="fa-brands fa-facebook"></i></a>
         </div>
       </div>
     </div>
   </div>
-  <div>
+  <div class="pt-8">
       <hr class="hr-footer-copyright" />
     <p class="copyright-footer text-center py-4">
       NSS NSUT CELL &copy; 2024 <br />
