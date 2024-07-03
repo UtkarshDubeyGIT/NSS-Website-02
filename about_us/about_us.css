@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100svw;
+    height: 100svh;
+    /* display: flex; */
+}
+.future_background{
+    width: 100svw;
+    height: 100svh;
+    /* display: flex; */
+}
+
+.parent{
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent_hero_section{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero_section{
+    z-index: -1;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 25px;
+    background: url(images/nss.avif) no-repeat;
+    background-size: 100% 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: ImageSlide 10s linear infinite;
+}
+
+@keyframes ImageSlide {
+    0%{
+    background: url(images/nss.avif) no-repeat;
+    background-size: 100% 100%;
+    }
+    25%{
+    background: url(images/background_image.jpeg) no-repeat;
+    background-size: 100% 100%;
+    }
+    50%{
+    background: url(images/background_image2.jpg) no-repeat;
+    background-size: 100% 100%;
+    }
+    75%{
+    background: url(images/nss_back.jpeg) no-repeat;
+    background-size: 100% 100%;
+    }
+    100%{
+    background: url(images/pfp.jpeg) no-repeat;
+    background-size: 100% 100%;
+    }
+    0%{
+        background: url(images/nss.avif) no-repeat;
+        background-size: 100% 100%;
+        }
+}
+
+/* add hover effect over this 
+hero section
+*/
+
+.material{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5% 10%;
+    padding: 5% 5%;
+}
+
+.values{
+    padding: 5% 5%;
+}
+
+.about_us_{
+    font-size: 3rem;
+}
+
+.gp_mnv{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5% 10%;
+    padding: 5% 5%;
+}
+
+.parent_mnv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.left_mnv{
+    width: 50%;
+    background-color: rgb(225, 223, 223);
+}
+
+.right_mnv{
+    width: 50%;
+    background-color: grey;
+}
+
+.mission_statements{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5% 10%;
+    padding: 5% 5%;
+}
+
+.team_{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5% 10%;
+    padding: 5% 5%;
+}
