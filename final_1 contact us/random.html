@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel = "stylesheet" href="random.css">
+</head>
+<body>
+    <div class = "background-white">
+    <div class = "contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" id = "usrform" class = "contact-left">
+            <div class="contact-left-title">
+                <h2> Contact us </h2>
+                <hr>
+            </div>
+                <input type="hidden" name="access_key" value="84f36632-4d23-4c1d-9cd0-85ba3041be71">
+                <input class = "contact-inputs" type = "text" id = "name" name = "name" placeholder="Your Name" required >
+                <input class = "contact-inputs" id = "roll_no" name = "roll_no" placeholder="NSUT Roll number" required>
+                <input class = "contact-inputs" id = "email" name = "email" placeholder="Email" required>                <!-- <label for = "message" >Message</label> -->
+                <textarea name = "message"class = "contact-inputs" form = "usrform" rows="4" cols = "50" placeholder="Your Message"></textarea required>
+                <button type = "submit">Submit</button>
+            </form> 
+    </div>
+    </div>
+</body>
+</html>
