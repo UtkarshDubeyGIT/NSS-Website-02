@@ -4,15 +4,26 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
+    z-index: -100;
     width: 100svw;
     height: 100svh;
-    /* display: flex; */
+    background: linear-gradient(225deg, #0c4e8c, #0c81e4, #11c4d4, #4FE7Af, #ccf1cd, rgb(219, 224, 210) );
+    background-attachment: fixed;
+    background-size:300% 300%;
+    animation: bg 10s ease-in-out infinite;
 }
-.future_background{
-    width: 100svw;
-    height: 100svh;
-    /* display: flex; */
+
+@keyframes bg {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 
 .parent{
