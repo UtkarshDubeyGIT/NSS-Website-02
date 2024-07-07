@@ -554,6 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #ffffff;
 }
@@ -574,6 +584,26 @@ body{
 }
 
 /* /* -----------------------------HERO----------------------------------  */
+
+.cursor {
+  border-right: 2px solid;
+  border-color: #0072b1;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.typewriter{
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 ;
+  letter-spacing: .15em;
+  animation: typewriter 4s steps(40, end) 1s 1 normal both,
+}
 
 /* -----------------------------QUOTE HOME PAGE-------------------------- */
 
@@ -776,10 +806,6 @@ footer{
   margin-top: 2.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -790,10 +816,6 @@ footer{
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
 }
 
 .inline-block {
@@ -873,8 +895,8 @@ footer{
   width: 91.666667%;
 }
 
-.w-36 {
-  width: 9rem;
+.w-32 {
+  width: 8rem;
 }
 
 .w-6 {
@@ -907,14 +929,6 @@ footer{
 
 .w-full {
   width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .max-w-lg {
@@ -1068,12 +1082,6 @@ footer{
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1205,16 +1213,16 @@ footer{
   padding: 2.5rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
 
 .p-2\.5 {
   padding: 0.625rem;
-}
-
-.p-24 {
-  padding: 6rem;
 }
 
 .p-3 {
@@ -1343,6 +1351,14 @@ footer{
 
 .text-center {
   text-align: center;
+}
+
+.font-Petit {
+  font-family: Petit Formal Script, sans-serif;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
@@ -1920,6 +1936,11 @@ footer{
     padding-bottom: 0.25rem;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1933,11 +1954,6 @@ footer{
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .md\:py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
   }
 
   .md\:py-8 {
