@@ -1,8 +1,6 @@
 # NSS-Website-02
 
-Access This Site At => https://gentle-river-057a9d200.5.azurestaticapps.net
-
-Welcome to the official repository for the National Service Scheme at Netaji Subhash University Of Technology (NSUT), located in Dwarka, New Delhi. Our NSS Cell is dedicated to serving the community through various initiatives and projects.
+Welcome to the repository for the template website of National Service Scheme at Netaji Subhash University Of Technology (NSUT), located in Dwarka, New Delhi. Our NSS Cell is dedicated to serving the community through various initiatives and projects.
 
 
 **
